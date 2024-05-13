@@ -1,0 +1,74 @@
+{
+    "Drosophila_ananassae": [
+        "dana-all-chromosome-r1.06.fasta",
+        "dana-all-predicted-r1.06.fasta"
+    ],
+    "Drosophila_erecta": [
+        "dere-all-chromosome-r1.05.fasta",
+        "dere-all-predicted-r1.05.fasta"
+    ],
+    "Drosophila_grimshawi": [
+        "dgri-all-chromosome-r1.05.fasta",
+        "dgri-all-predicted-r1.05.fasta"
+    ],
+    "Drosophila_melanogaster": [
+        "dmel-all-CDS-r6.57.fasta",
+        "dmel-all-aligned-r6.57.fasta",
+        "dmel-all-chromosome-r6.57.fasta",
+        "dmel-all-clones-r6.57.fasta",
+        "dmel-all-exon-r6.57.fasta",
+        "dmel-all-five_prime_UTR-r6.57.fasta",
+        "dmel-all-gene-r6.57.fasta",
+        "dmel-all-gene_extended2000-r6.57.fasta",
+        "dmel-all-intergenic-r6.57.fasta",
+        "dmel-all-intron-r6.57.fasta",
+        "dmel-all-miRNA-r6.57.fasta",
+        "dmel-all-miscRNA-r6.57.fasta",
+        "dmel-all-ncRNA-r6.57.fasta",
+        "dmel-all-predicted-r6.57.fasta",
+        "dmel-all-pseudogene-r6.57.fasta",
+        "dmel-all-sequence_features-r6.57.fasta",
+        "dmel-all-synteny-r6.57.fasta",
+        "dmel-all-tRNA-r6.57.fasta",
+        "dmel-all-three_prime_UTR-r6.57.fasta",
+        "dmel-all-transcript-r6.57.fasta",
+        "dmel-all-translation-r6.57.fasta",
+        "dmel-all-transposon-r6.57.fasta"
+    ],
+    "Drosophila_mojavensis": [
+        "dmoj-all-chromosome-r1.04.fasta",
+        "dmoj-all-predicted-r1.04.fasta"
+    ],
+    "Drosophila_persimilis": [
+        "dper-all-chromosome-r1.3.fasta",
+        "dper-all-predicted-r1.3.fasta"
+    ],
+    "Drosophila_pseudoobscura": [
+        "dpse-all-aligned-r3.04.fasta",
+        "dpse-all-chromosome-r3.04.fasta",
+        "dpse-all-clones-r3.04.fasta",
+        "dpse-all-predicted-r3.04.fasta",
+        "dpse-all-synteny-r3.04.fasta"
+    ],
+    "Drosophila_sechellia": [
+        "dsec-all-chromosome-r1.3.fasta",
+        "dsec-all-predicted-r1.3.fasta"
+    ],
+    "Drosophila_simulans": [
+        "dsim-all-chromosome-r2.02.fasta",
+        "dsim-all-clones-r2.02.fasta"
+    ],
+    "Drosophila_virilis": [
+        "dvir-all-aligned-r1.07.fasta",
+        "dvir-all-chromosome-r1.07.fasta",
+        "dvir-all-predicted-r1.07.fasta"
+    ],
+    "Drosophila_willistoni": [
+        "dwil-all-chromosome-r1.05.fasta",
+        "dwil-all-predicted-r1.05.fasta"
+    ],
+    "Drosophila_yakuba": [
+        "dyak-all-chromosome-r1.05.fasta",
+        "dyak-all-predicted-r1.05.fasta"
+    ]
+}
