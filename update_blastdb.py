@@ -21,13 +21,13 @@ container = from_env().containers.run(
 def func(args):
     drosophila, fasta = args
 
-    run(['curl', '-o', f'/mnt/fasta/{fasta}.gz', f'https://ftp.flybase.net/genomes/{drosophila}/current/fasta/{fasta}.gz'])
+    run(['curl', '-o', f'{getcwd()}/fasta/{fasta}.gz', f'https://ftp.flybase.net/genomes/{drosophila}/current/fasta/{fasta}.gz'])
 
-    run(['gunzip', f'/mnt/fasta/{fasta}.gz'])
+    run(['gunzip', f'{getcwd()}/fasta/{fasta}.gz'])
 
     container.exec_run(f"makeblastdb -in /blast/fasta/{fasta} -dbtype nucl -out {fasta.replace('.fasta', '')}")
 
-    run(['rm', f'/mnt/fasta/{fasta}'])
+    run(['rm', f'{getcwd()}/fasta/{fasta}'])
 
 
 with open('genomes.json', 'r') as genomes:
