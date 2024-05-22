@@ -25,7 +25,7 @@ def func(args):
 
     run(['gunzip', f'{getcwd()}/fasta/{fasta}.gz'])
 
-    container.exec_run(f"makeblastdb -in /blast/fasta/{fasta} -dbtype nucl -parse_seqid -out {fasta.replace('.fasta', '')} -blastdb_version 5")
+    container.exec_run(f"makeblastdb -in /blast/fasta/{fasta} -dbtype nucl -parse_seqids -out {fasta.replace('.fasta', '')} -blastdb_version 5")
 
     run(['rm', f'{getcwd()}/fasta/{fasta}'])
 
